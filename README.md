@@ -48,6 +48,6 @@ Check in browser on http://localhost:8080/
 
 <h2 align= "center"><b>Project Maintainer</b></h2>
 <p align="center">
-<img width=20% src="https://avatars1.githubusercontent.com/u/14235781?s=400&u=04e682f0022b55e24740ebd9ed4a22dd9f1b95cd&v=4">
+<img width=20% src="https://avatars0.githubusercontent.com/u/56133783?v=4">
 </p>
 <p align="center"><a href="https://github.com/Shruti3004"><b>Shruti Agarwal</b></h4></a></p>

@@ -4,12 +4,12 @@ import { MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt, FaBuilding } from "react-icons/fa";
 import { BsClockFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-
+ 
 function Contact() {
     return (
         <React.Fragment>
             <div className="container">
-                <div className="row">
+                <div className="row">                    
                     <div className="col-lg-6 col-sm-12 col-md-6 col-12 align-self-center">
                         <img src={Taxi} alt="Vinayak Travels Outstation Taxi Service" className="img-fluid" />
                     </div>

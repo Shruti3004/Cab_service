@@ -13,8 +13,8 @@ function Blogs({match}) {
   const [mode, setMode] = useState('online');
   const dataAbout = async () => {
     try {
-      var url = `/${route}`;
-      var request = {
+      let url = `/${route}`;
+      let request = {
         url,
         method: "get",
       };
@@ -101,8 +101,10 @@ function Blogs({match}) {
       }      
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
-          <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
-          <img src={image} className="img-fluid my-3" alt={title} />
+          <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>          
+          {image
+            ? <img src={image} className="img-fluid my-3" alt={title} />
+            : ""}
           {intro
             ? intro.map((introdetail, index) => {
                 return <p key={index} className="font-regular text-brown font-16">{introdetail}</p>;

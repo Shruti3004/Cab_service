@@ -4,7 +4,6 @@ import Copyright from "./Copyright";
 import { Link } from "react-router-dom";
 import Logo from "../../images/main-logo.png";
 import { IoIosArrowForward } from "react-icons/io";
-import IconContext from "react-icons";
 
 function Footer() {
   return (

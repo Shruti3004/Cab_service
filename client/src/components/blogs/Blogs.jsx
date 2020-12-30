@@ -31,7 +31,7 @@ function Blogs({match}) {
   };
   useEffect(() => {
     dataAbout();
-  }, [data]);
+  }, [route]);
 
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
@@ -136,4 +136,4 @@ function Blogs({match}) {
   );
 }
 
-export default Blogs;
+export default React.memo(Blogs);

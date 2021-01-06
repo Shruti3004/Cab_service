@@ -46,7 +46,7 @@ NODE_ENV=production node app.js
 Check in browser on http://localhost:8080/
 
 <h3><b>Chrome Lighthouse Report :rocket: </b></h3>
-<p align="center"></p>
+<p align="center"><img src="./assets/lightHouseReport.png"></p>
 
 <h2 align= "center"><b>Project Maintainer</b></h2>
 <p align="center">
